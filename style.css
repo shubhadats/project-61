@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+}
+
+#basketball {
+    width: 200px;
+    height: 300px;
+    border-radius: 35%;
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-family: 'Potta One', cursive;
+}
+
+.line {
+    height: 10px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h2 {
+    color: darkmagenta;
+    font-family: 'Anton', sans-serif;
+}
+
+#welcome {
+    background: linear-gradient(#8bf50c 0%, #e6f50c 100%);
+}
+
+#bio {
+    background-color: darksalmon;
+    height: 200px;
+    font-family: 'Indie Flower', cursive;
+    color: darkgoldenrod;
+}
+
+.menu {
+    z-index: 10;
+    list-style: none;
+    top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.links {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.links:hover {
+    background-color: lightsalmon;
+}
+
+html{
+scroll-behavior: smooth;
+}
+#height{
+    background-color: lightblue;
+    color: darkmagenta;
+    font-family: 'Sriracha', cursive;
+    font-weight: 900;
+}
+#inspiration{
+    background-color: lightgreen;
+    color: darkorange;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-weight: 900;
+}
+#player{
+    background: linear-gradient(#1d05fc 0%, #bc05fc 100%);
+}
+#photos{
+    font-size: 30px;
+    font-family: 'Potta One', cursive;
+    font-weight: bold;
+}
+#picture{
+    transition: transform .2s;
+    border: 5px solid #0c9af5;
+    height: 500px;
+}
+#picture:hover{
+    transform: scale(0.9);
+}
+.gmail h3{
+    display: inline;
+    text-decoration: none;  
+}
+a{
+  text-decoration: none;
+}
